@@ -1,0 +1,15 @@
+! tag interface in 
+
+! prdnetrsw501 Et49/1 IX1
+set_tag=140 ip=10.10.10.1 in=49001
+! prdnetrsw501 Et49/1 IX2
+set_tag=141 ip=10.10.10.2 in=49001
+
+! tag interface out
+
+! prdnetrsw502 Et49/1 IX1
+set_tag=240 ip=10.10.10.1 out=49001
+! prdnetrsw501 Et49/1 IX2
+set_tag=241 ip=10.10.10.2 out=49001
+
+
